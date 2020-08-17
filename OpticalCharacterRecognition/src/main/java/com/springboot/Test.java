@@ -10,6 +10,6 @@ public class Test {
 	public static void main(String[] args) throws TesseractException {
 		Tesseract tesseract = new Tesseract();
 		tesseract.setDatapath("/home/bicky/Pictures/Opc/eng.traineddata"); ///
-		System.out.println(tesseract.doOCR(new File("home/bicky/Downloads/teseract.jpg")));
+		System.out.println(tesseract.doOCR(new File("home/bicky/Downloads/teseract.png")));
 	}
 }
